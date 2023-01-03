@@ -1,0 +1,25 @@
+//import modules
+import java.util.Scanner;
+
+//main class
+public class Main {
+    public static void main(String[] args) {
+        //module to accept user input
+        Scanner sc = new Scanner(System.in);
+        //asking for user input
+        System.out.print("Enter the student's mark: ");
+        //creating a variable to store the marks
+        int marks = sc.nextInt();
+
+        //validation using if statements and print outputs
+        if (marks > 80){
+            System.out.println("This is a great performance");
+        } else if (marks > 60) {
+            System.out.println("This is s fair performance");
+        } else if (marks > 40) {
+            System.out.println("his is good performance");
+        }else{
+            System.out.println("Fail!! Reapeat");
+        }
+    }
+}
