@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Main{
+public class Calculator{
     public static void main(String[] args){
         System.out.println("Use the symbols in bracket below to choose an opertaion");
         System.out.println("Addition(+), Subtraction(-), Division(/), Multiplication(*) ");
